@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: rgb(235, 235, 235);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-container {
+  margin-top: 4rem;
+  max-width: 1100px;
+  overflow: hidden;
+  border-radius: 7.5px;
+  padding-bottom: 4rem;
+}
+
+.slide {
+  background: #fff;
+  height: 75px;
+  border-radius: 7.5px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 7.5px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 10px;
+  padding: 0;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+  color: transparent !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #555;
+}
+
+.company-container {
+  background: #fff;
+  padding: 1rem 0.5rem;
+  border-radius: 7.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #c7c7c7;
+}
+
+.company-container:hover {
+  transform: scale(0.95);
+  transition: transform 0.2s ease;
+}
+
+.company-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.accenture-icon {
+  color: #a100ff;
+}
+.infosys-icon {
+  color: #0271b1;
+}
+.swiggy-icon {
+  color: #f77217;
+}
+.wipro-icon {
+  color: #351a55;
+}
+.atlassian-icon {
+  color: #1868db;
+}
+.netflix-icon {
+  color: #e50914;
+}
+.microsoft-icon {
+  color: #08a1f7;
+}
+.spotify-icon {
+  color: #1ed760;
+}
+
+.name-rating-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 7.5px;
+  background: rgb(245, 245, 245);
+}
+
+.rating-review {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.rating {
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+.rating-icon {
+  color: #ffc000;
+}
+
+.review {
+  margin-left: 0.5rem;
+}
+
+.review-icon {
+  color: cornflowerblue;
+}
+
+.rating,
+.review {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.description {
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  background: #4777fe;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background: #628cff;
+  transition: background 0.3s ease;
+}
